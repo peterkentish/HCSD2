@@ -32,7 +32,7 @@ public class CalendarPanel extends JPanel {
 		Calendar c = Calendar.getInstance();
 		c.setFirstDayOfWeek(Calendar.MONDAY);
 		c.set(Calendar.DAY_OF_WEEK, Calendar.MONDAY);
-		
+//		  testing
 		weekStart = c.getTime();
 		int weekStartInt = weekStart.getDate();
 		int monthInt = weekStart.getMonth();
